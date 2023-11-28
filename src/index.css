@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  margin: 10px 10%;
+}
+
+.App  .attribution  a {
+  color: orange;
+}
+
+
+@media screen and (max-width: 450px) {
+  .App  .attribution {
+    display: flex;
+    flex-direction: column;
+  }
+  }

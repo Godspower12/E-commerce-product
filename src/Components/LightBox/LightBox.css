@@ -1,0 +1,178 @@
+.lightbox {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    right: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+.lightox .lightbox-contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lightbox .cancelLightbox {
+    position: absolute;
+    font-size: 1.5rem;
+    right: 20%;
+    top: 20px;
+    z-index: 200;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.lightbox-contents .lightbox-img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin-left:300px;
+}
+.lightbox-contents .lightbox-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.lightbox-contents  .lightbox-img ul {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: -50%;
+    justify-content: space-between;
+}
+.lightbox-contents  .lightbox-img ul li{
+    list-style: none;
+}
+.lightbox-contents  .lightbox-img ul li  button{
+    list-style: none;
+    background: white;
+    border-radius: 50%;
+    border: transparent;
+    padding: 5px;
+}
+
+.lightbox-contents .lightbox-img img {
+    border-radius: 10px;
+ }
+
+
+@media screen and (max-width: 1024px) {
+    
+    .lightbox .cancelLightbox {
+        position: absolute;
+        font-size: 1.5rem;
+        right: 20%;
+        top: 20px;
+        z-index: 200;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    
+    .lightbox-contents .lightbox-img {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 50%;
+        margin-left:250px;
+    }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .lightbox .cancelLightbox {
+            position: absolute;
+            font-size: 1.5rem;
+            right: 20%;
+            top: 20px;
+            z-index: 200;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        
+        .lightbox-contents .lightbox-img {
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 50%;
+            margin-left:200px;
+        }
+        .lightbox-contents .lightbox-img img {
+            border-radius: 10px;
+         }
+
+        }
+
+        @media screen and (max-width: 450px) {
+           
+            .lightbox .cancelLightbox {
+                position: absolute;
+                font-size: 1.5rem;
+                right: 15%;
+                top: 100px;
+                z-index: 200;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            
+            
+            .lightbox-contents .lightbox-img {
+                position: relative;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                height: 50%;
+                margin-left:60px;
+                border-radius: 10px;
+            }
+            .lightbox-contents .lightbox-img img {
+                border-radius: 10px;
+             }
+ 
+
+            }
+        @media screen and (max-width: 375px) {
+           
+            .lightbox .cancelLightbox {
+                position: absolute;
+                font-size: 1.5rem;
+                right: 10%;
+                top: 120px;
+                z-index: 200;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            
+            
+            .lightbox-contents .lightbox-img {
+                position: relative;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                height: 50%;
+                margin-left:60px;
+                border-radius: 10px;
+            }
+            
+            }
