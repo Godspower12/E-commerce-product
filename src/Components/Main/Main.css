@@ -38,6 +38,7 @@
     margin: 5px 0px;
 }
 
+
 .main-right .pricing {
     margin: 10px 0px;
     display: flex;
@@ -293,6 +294,12 @@ margin-right: 10px;
 }
 .main-left .mainImage-display-desktop {
     display: none;
+}
+
+.main-right .main-pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 }
 
